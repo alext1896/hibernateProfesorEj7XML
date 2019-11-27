@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 27 nov. 2019 13:39:30 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="es.profesor.modelo.Correo" table="Correo">
+    
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="direccion" type="java.lang.String">
+            <column name="direccion" />
+        </property>
+        <property name="proveedor" type="java.lang.String">
+            <column name="proveedor" />
+        </property>
+    </class>
+</hibernate-mapping>
